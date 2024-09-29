@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mis-221-lab-4-ltadams0311")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d49459b1cd54ebb5b00644f431ef56c3b4d3887b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4664562caac317a6ea497ca6324940db2bf5644")]
 [assembly: System.Reflection.AssemblyProductAttribute("mis-221-lab-4-ltadams0311")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mis-221-lab-4-ltadams0311")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

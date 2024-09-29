@@ -53,8 +53,6 @@ class PizzaProgram
 
     static void Main(string[] args)
     {
-        const int pizzaSize = 9;
-
         while (true)
         {
             DisplayMenu();
@@ -63,18 +61,21 @@ class PizzaProgram
 
             if (choice == "1")
             {
+                int rows = random.Next(8, 13); 
                 Console.WriteLine("\nPlain Pizza Slice:");
-                PlainPizza(pizzaSize);
+                PlainPizza(rows);
             }
             else if (choice == "2")
             {
+                int rows = random.Next(8, 13); 
                 Console.WriteLine("\nCheese Pizza Slice:");
-                CheesePizza(pizzaSize);
+                CheesePizza(rows);
             }
             else if (choice == "3")
             {
+                int rows = random.Next(8, 13); 
                 Console.WriteLine("\nPepperoni Pizza Slice:");
-                PepperoniPizza(pizzaSize);
+                PepperoniPizza(rows);
             }
             else if (choice == "4")
             {
@@ -88,5 +89,6 @@ class PizzaProgram
         }
     }
 }
+
 
 
